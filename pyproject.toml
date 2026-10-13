@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=77", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dega2"
+version = "0.1.0"
+description = "DEGA-2: A optimization a function over the efficient set of  multi-objective  integer variables using the genetics algorithms"
+readme = "README.md"
+requires-python = ">=3.9"
+license = "MIT"
+license-files = ["LICENSE"]
+authors = [{ name = "Ali Zaidi", email = "a.zaidi@crlca.dz" }]
+keywords = ["optimization", "genetic algorithm", "multi-objective", "integer programming"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Mathematics",
+]
+dependencies = [
+    "numpy",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+plot = ["matplotlib"]
+test = ["pytest"]
+
+[project.scripts]
+dega2 = "dega2.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
