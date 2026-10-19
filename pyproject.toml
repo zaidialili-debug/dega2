@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "dega2"
-version = "0.1.0"
+version = "0.1.1"
 description = "DEGA-2: A optimization a function over the efficient set of  multi-objective  integer variables using the genetics algorithms"
 readme = "README.md"
 requires-python = ">=3.9"

@@ -1,6 +1,6 @@
 """DEGA-2: a multi-objective genetic algorithm for integer variables."""
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 from .solver import Result, solve
 from .entree import charger_probleme, ecrire_exemple

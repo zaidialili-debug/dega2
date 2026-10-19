@@ -1,7 +1,7 @@
 # DEGA-2
 
-An optimization algorithm for integer variables over the efficient set of a
-multi-objective problem, using a genetic algorithm, by Ali Zaidi.
+An algorithm  of optimization  a linear function over the efficient set of a
+multi-objective problem for integer variables, using a genetic algorithm, by Ali Zaidi.
 
 It minimizes a function `phi·x` subject to linear constraints `a·x <= b`
 (`x` integer, and `x >= 0` by default), using `p` objectives `c·x` for the
